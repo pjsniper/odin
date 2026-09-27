@@ -1,0 +1,16 @@
+/* Target the parent container */
+.container {
+    display: flex; /* Activates Flexbox */
+    gap: 15px;     /* Adds space between the child boxes */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Optional styling for the child items to see them clearly */
+.box {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
