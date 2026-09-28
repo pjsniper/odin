@@ -1,16 +1,84 @@
 /* Target the parent container */
 .container {
     display: flex; /* Activates Flexbox */
-    gap: 15px;     /* Adds space between the child boxes */
-    background-color: #f0f0f0;
-    padding: 20px;
+    flex-direction: column; /* Aligns children in a column */
+    background-color: #000000;
+    font-size: 24px;
 }
 
 /* Optional styling for the child items to see them clearly */
-.box {
+.header {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 20px;
+    flex-wrap: no-wrap; 
+    font-size: 24px;
+    padding: 20px;
+    flex-direction: row; /* Aligns children in a row */
+    flex: 1;
+}
+
+/* Optional styling for the child items to see them clearly */
+.logo {
+    background-color: #e0e6ed;
+    color: #F9FAF8;
+    border:2px solid#467617;
+    border-width: 2px;
+    font-size: 18px;
+    flex: 1; /* Allows the boxes to grow and fill the container */
+}
+
+/* Optional styling for the child items to see them clearly */
+.headbar {
+    background-color: #e0e6ed;
+    color: #F9FAF8;
+    border:2px solid#467617;
+    border-width: 2px;
+    font-size: 18px;
+    flex: 1; /* Allows the boxes to grow and fill the container */
+}
+
+/* Optional styling for the child items to see them clearly */
+.awesome_website {
     background-color: #007bff;
     color: white;
     padding: 20px;
     font-size: 18px;
-    border-radius: 5px;
+    flex: 1; /* Allows the boxes to grow and fill the container */
+}
+
+/* Optional styling for the child items to see them clearly */
+.randome_info {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    flex: 1; /* Allows the boxes to grow and fill the container */
+}
+
+/* Optional styling for the child items to see them clearly */
+.quote {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    flex: 1; /* Allows the boxes to grow and fill the container */
+}
+
+/* Optional styling for the child items to see them clearly */
+.call_to_action {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    flex: 1; /* Allows the boxes to grow and fill the container */
+}
+
+/* Optional styling for the child items to see them clearly */
+.footer {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    flex: 1; /* Allows the boxes to grow and fill the container */
 }
